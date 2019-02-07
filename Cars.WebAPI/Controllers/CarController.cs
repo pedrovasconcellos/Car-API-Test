@@ -98,6 +98,8 @@ namespace Cars.WebAPI.Controllers
             if (!Enum.IsDefined(typeof(EnumColor), car.Color))
                 return await Task.FromResult<ActionResult>(this.UnprocessableEntity("Color of the vehicle is invalid!"));
 
+            if(CarRepository.Cars.Count() > 30) return await Task.FromResult<ActionResult>(this.UnprocessableEntity("It is not possible to add more vehicles, please delete the available vehicles!"));
+
             var result = this.InsertCar(car);
 
             if (result == null) return await Task.FromResult<ActionResult>(this.UnprocessableEntity("This car has already been registered!"));

@@ -11941,11 +11941,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pedro\\source\\repos\\Cars\\Cars.WebAPI\\Cars.WebAPI.csproj",
+      "projectUniqueName": "C:\\Vasconcellos\\Car-API-Test\\Cars.WebAPI\\Cars.WebAPI.csproj",
       "projectName": "Cars.WebAPI",
-      "projectPath": "C:\\Users\\pedro\\source\\repos\\Cars\\Cars.WebAPI\\Cars.WebAPI.csproj",
+      "projectPath": "C:\\Vasconcellos\\Car-API-Test\\Cars.WebAPI\\Cars.WebAPI.csproj",
       "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pedro\\source\\repos\\Cars\\Cars.WebAPI\\obj\\",
+      "outputPath": "C:\\Vasconcellos\\Car-API-Test\\Cars.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Cars.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:Cars.WebAPI.Controllers.ApiController.ResetAPI">
+            <summary>
+            Reset API
+            </summary> 
+            <response code="200">Ok</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Cars.WebAPI.Controllers.CarColorController.GetColors">
+            <summary>
+            Get Colors
+            </summary> 
+            <response code="200">Ok</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Cars.WebAPI.Controllers.CarController.GetCars(System.String,System.String,System.Nullable{System.Int16},Cars.WebAPI.Models.EnumColor[],System.String[])">
+            <summary>
+            Get Cars
+            </summary> 
+            <response code="200">Ok</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Cars.WebAPI.Controllers.CarController.GetCar(System.String)">
+            <summary>
+            Get Car
+            </summary> 
+            <response code="200">Ok</response>
+            <response code="400">Bad Request</response>
+            <response code="404">Not Found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Cars.WebAPI.Controllers.CarController.CreateCar(Cars.WebAPI.Models.CarAddModel)">
+            <summary>
+            Create Car
+            </summary> 
+            <response code="201">Created</response>
+            <response code="400">Bad Request</response>
+            <response code="422">Unprocessable Entity</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Cars.WebAPI.Controllers.CarController.UpdateCar(System.String,Cars.WebAPI.Models.CarAlterModel)">
+            <summary>
+            Update Car
+            </summary> 
+            <response code="200">Ok</response>
+            <response code="400">Bad Request</response>
+            <response code="404">Not Found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Cars.WebAPI.Controllers.CarController.RemoveCar(System.String)">
+            <summary>
+            Remove Car
+            </summary> 
+            <response code="200">Ok</response>
+            <response code="400">Bad Request</response>
+            <response code="404">Not Found</response>
+            <response code="422">Unprocessable Entity</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="T:Cars.WebAPI.Help.ErrorModel">
+            <summary>
+            Error
+            </summary>
+            <remarks>
+            Entidade de resposta de todos os erros de solicitações realizadas na WebAPI.
+            </remarks>
+        </member>
+        <member name="M:Cars.WebAPI.Help.ErrorModel.#ctor(System.Int16,System.String,System.String)">
+            <summary>
+            Error
+            </summary>
+            <remarks>
+            Construtor da Entidade Error que descreve os erros gerados na WebAPI.
+            </remarks>
+        </member>
+        <member name="P:Cars.WebAPI.Help.ErrorModel.ErrorCode">
+            <summary>
+            ErrorCode
+            </summary>
+            <remarks>
+            Código ou ordem do erro gerado.
+            </remarks>
+        </member>
+        <member name="P:Cars.WebAPI.Help.ErrorModel.Parameter">
+            <summary>
+            Parameter
+            </summary>
+            <remarks>
+            Parâmetro ou campo causador do erro.
+            </remarks>
+        </member>
+        <member name="P:Cars.WebAPI.Help.ErrorModel.Message">
+            <summary>
+            Message
+            </summary>
+            <remarks>
+            Mensagem do erro.
+            </remarks>
+        </member>
+        <member name="M:Cars.WebAPI.Help.ErrorModel.ToList">
+            <summary>
+            ToList
+            </summary>
+            <remarks>
+            Cria a lista de Erros usando o própio objeto.
+            </remarks>
+        </member>
+    </members>
+</doc>
