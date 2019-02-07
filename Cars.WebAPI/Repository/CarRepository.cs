@@ -10,8 +10,6 @@ namespace Cars.WebAPI.Repository
 
         internal static void SetDefault()
         {
-            Cars = new List<CarModel>();
-
             var ferrari = new CarModel()
             {
                 Id = Guid.Parse("7f430a38-a6b2-4a8f-96d5-801725dfdfc8"),
@@ -62,11 +60,14 @@ namespace Cars.WebAPI.Repository
                 Optionals = new string[] { "Air conditioning", "Alarm" }
             };
 
-            CarRepository.Cars.Add(ferrari);
-            CarRepository.Cars.Add(lamborghini);
-            CarRepository.Cars.Add(porsche);
-            CarRepository.Cars.Add(bmw);
-            CarRepository.Cars.Add(mercedes);
+            Cars = new List<CarModel>
+            {
+                ferrari,
+                lamborghini,
+                porsche,
+                bmw,
+                mercedes
+            };
         }
     }
 }

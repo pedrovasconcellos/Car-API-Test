@@ -46,7 +46,7 @@ namespace Cars.WebAPI.Controllers
             Request.HttpContext.Response.Headers.Add("Access-Control-Expose-Headers", "X-Total-Count");
             Request.HttpContext.Response.Headers.Add("X-Total-Count", cars?.Count().ToString());
 
-            return await Task.FromResult<ActionResult>(this.Ok(cars)); ;
+            return await Task.FromResult<ActionResult>(this.Ok(cars));
         }
 
         /// <summary>
