@@ -62,6 +62,13 @@
             <response code="422">Unprocessable Entity</response>
             <response code="500">Internal Server Error</response>
         </member>
+        <member name="M:Cars.WebAPI.Controllers.OptionalCarController.GetOptionals">
+            <summary>
+            Get Optionals
+            </summary> 
+            <response code="200">Ok</response>
+            <response code="500">Internal Server Error</response>
+        </member>
         <member name="T:Cars.WebAPI.Help.ErrorModel">
             <summary>
             Error
