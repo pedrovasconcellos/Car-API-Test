@@ -1,0 +1,15 @@
+C:\Users\pedro\source\repos\Cars\Cars.WebAPI\bin\Debug\netcoreapp2.1\Cars.WebAPI.deps.json
+C:\Users\pedro\source\repos\Cars\Cars.WebAPI\bin\Debug\netcoreapp2.1\Cars.WebAPI.runtimeconfig.json
+C:\Users\pedro\source\repos\Cars\Cars.WebAPI\bin\Debug\netcoreapp2.1\Cars.WebAPI.runtimeconfig.dev.json
+C:\Users\pedro\source\repos\Cars\Cars.WebAPI\bin\Debug\netcoreapp2.1\Cars.WebAPI.dll
+C:\Users\pedro\source\repos\Cars\Cars.WebAPI\obj\Debug\netcoreapp2.1\Cars.WebAPI.csprojAssemblyReference.cache
+C:\Users\pedro\source\repos\Cars\Cars.WebAPI\obj\Debug\netcoreapp2.1\Cars.WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\pedro\source\repos\Cars\Cars.WebAPI\obj\Debug\netcoreapp2.1\Cars.WebAPI.RazorAssemblyInfo.cache
+C:\Users\pedro\source\repos\Cars\Cars.WebAPI\obj\Debug\netcoreapp2.1\Cars.WebAPI.RazorAssemblyInfo.cs
+C:\Users\pedro\source\repos\Cars\Cars.WebAPI\obj\Debug\netcoreapp2.1\Cars.WebAPI.AssemblyInfoInputs.cache
+C:\Users\pedro\source\repos\Cars\Cars.WebAPI\obj\Debug\netcoreapp2.1\Cars.WebAPI.AssemblyInfo.cs
+C:\Users\pedro\source\repos\Cars\Cars.WebAPI\obj\Debug\netcoreapp2.1\Cars.WebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\pedro\source\repos\Cars\Cars.WebAPI\bin\Debug\netcoreapp2.1\Cars.WebAPI.pdb
+C:\Users\pedro\source\repos\Cars\Cars.WebAPI\obj\Debug\netcoreapp2.1\Cars.WebAPI.dll
+C:\Users\pedro\source\repos\Cars\Cars.WebAPI\obj\Debug\netcoreapp2.1\Cars.WebAPI.pdb
+C:\Users\pedro\source\repos\Cars\Cars.WebAPI\bin\Debug\netcoreapp2.1\Cars.WebAPI.xml
